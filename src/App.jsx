@@ -1,5 +1,6 @@
 import ClaimFrom from "./component/ClaimFrom";
 import Heading from "./component/Heading";
+import StandoutResume from "./component/StandoutResume";
 
 
 const App = () => {
@@ -10,6 +11,9 @@ const App = () => {
       </div>
       <div className="absolute mt-[-100px]  ml-[550px]">
         <ClaimFrom/>
+      </div>
+      <div className="mt-[750px] mb-10">
+        <StandoutResume/>
       </div>
     </div>
   );
