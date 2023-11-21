@@ -1,9 +1,16 @@
+import ClaimFrom from "./component/ClaimFrom";
+import Heading from "./component/Heading";
 
 
 const App = () => {
   return (
     <div>
-      <h1>this app page</h1>
+      <div className="bg-slate-100 relative py-6">
+        <Heading/>
+      </div>
+      <div className="absolute mt-[-100px]  ml-[550px]">
+        <ClaimFrom/>
+      </div>
     </div>
   );
 };
